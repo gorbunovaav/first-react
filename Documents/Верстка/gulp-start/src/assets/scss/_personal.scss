@@ -1,0 +1,41 @@
+.personal__list {
+    display: flex;
+    margin-right: 135px;
+    align-items: center;
+    position: relative;
+}
+
+.personal__list::after {
+    content: "";
+    width: 47px;
+    height: 2px;
+    background-color: #ffd68f;
+    position: absolute;
+    left: 260px;
+}
+.personal__list-item {
+    margin-right: 45px;
+    position: relative;
+}
+
+.personal__list-item:last-child {
+    margin-right: 0px;
+}
+.personal__number {
+    background-color: white;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2;
+    font-size: 10px;
+    color: black;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}

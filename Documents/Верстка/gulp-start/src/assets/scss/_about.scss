@@ -1,0 +1,66 @@
+.about {
+    display: flex;
+    height: 800px;
+    background: url(./../images/bg_about1.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+
+.about__img {
+    position: relative;
+    top: 60px;
+    left: 140px;
+    right: 140px;
+    z-index: 1;
+}
+
+.about__reasons {
+    margin-left: 240px;
+    margin-top: 90px;
+}
+
+.reasons__heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    font-family: Mulish-ExtraBold;
+    width: 600px;
+    margin-top: 0;
+    margin-left:46px;
+    position: relative;
+}
+
+.reasons__heading::after {
+    content: url(./../images/Line_awesome_drink.png);
+    position: absolute;
+    left: 50px;
+    bottom: -20px;
+}
+
+.reasons__heading--green {
+    display: inline;
+    color: #cae941;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.reasons__list {
+    list-style-image: url(./../images/smoothie_list.png);
+    font-size: 21px;
+    margin-bottom: 50px;
+    margin-left:32px;
+    margin-top: 4px;
+}
+
+.reasons__list-item {
+    margin-bottom: 20px;
+}
+
+.text--bold {
+    font-weight: bold;
+}

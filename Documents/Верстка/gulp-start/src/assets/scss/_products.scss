@@ -1,0 +1,60 @@
+.products {
+    height: 720px;
+    margin: 0;
+    padding: 0;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#Dark_Chocolate {
+    background-color: #663019;
+}
+
+#Vegan_Lettuce {
+    background-color: #178274;
+}
+
+#Lemon_Ginger {
+    background-color: #f9ae40;
+}
+
+#Turmeric_Garlic {
+    background-color: #c5461c;
+}
+
+.product__heading {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: Mulish-Regular;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.product__text {
+    font-size: 21px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 62px;
+    font-style: italic;
+}
+
+.product__list-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    width: 475px;
+    height: 600px;
+    flex: 1;
+}
+
+.product__img {
+    align-self: center;
+}

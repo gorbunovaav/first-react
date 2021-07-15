@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .header__navigation {
+        position: fixed;
+        background-color:#0aa566;
+        top: 0;
+        left:0 ;
+        right: 0;
+        bottom: 0;
+        z-index: 99999999;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-top:150px;
+    }
+    .header__right-block{
+        margin-bottom: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .menu__list{
+        flex-direction: column;
+    }
+    .menu__list-item{
+        margin: 0 0 50px;
+    }
+    .header__burger-btn{
+        display: block;
+        z-index: 99999999;
+    }
+}
+@media screen and (max-width: 360px) {
+    .header__navigation {
+        display: none;
+        
+    }
+    .header__burger-btn{
+        display: block;
+        z-index: 99999999;
+    }
+}

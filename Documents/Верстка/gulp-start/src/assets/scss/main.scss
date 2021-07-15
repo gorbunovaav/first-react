@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Mulish-Regular';
+    src: local('Mulish-Regular'),
+        url(./../fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish-Bold';
+    src: local('Mulish-Bold'),
+        url(./../fonts/Mulish-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: local('Mulish-ExtraBold'),
+        url(./../fonts/Mulish-ExtraBold.ttf);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    font-family: "Mulish-Regular";
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@import './layouts/header';
+@import './layouts/menu';
+@import './smoothies';
+@import './personal';
+@import './social';
+@import './about';
+@import './products';
+@import './story';
+@import './testimonials';
+@import './blog';
+@import './instagram';
+@import './footer';
+@import './components/button';
+
+
+
+
+@import './media';
+
+
+
+
+

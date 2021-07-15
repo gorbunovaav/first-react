@@ -1,0 +1,129 @@
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    &:hover {
+        filter: brightness(115%);
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-filter: brightness(115%);
+    }
+}
+.content__btn{
+    &--text{
+    margin-left: 35px;
+    }
+    &--green-bg{
+        width: 280px;
+        height: 70px;
+        background-color: #0aa566;
+        border: #0aa566;
+        border-width: 1px;
+        font-size: 24px;
+        color: white;
+        position: relative;
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 16px;
+            width: 30px;
+            background-image: url("./../images/Arrow_shop-now.png");
+            top: 40%;
+            right: 30px;
+        }
+    }
+}
+
+.reasons__btn{
+    &--text{
+        margin-left: 35px;
+    }
+    &--green-bg {
+        width: 380px;
+        height: 60px;
+        background-color: #0aa566;
+        border-color: #f8b231;
+        border-width: 3px;
+        color: white;
+        font-family: Mulish-ExtraBold;
+        font-size: 21px;
+        position: relative;
+        margin-left:40px;
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 16px;
+            width: 30px;
+            background-image: url("./../images/Arrow_shop-now.png");
+            top: 40%;
+            right: 30px;
+        }
+    }
+}
+
+.product__btn{
+    &--text{
+        margin-left: 35px;
+    }
+    &--no-bg{
+        align-self: center;
+        width: 200px;
+        height: 60px;
+        background: none;
+        border-color: white;
+        border-width: 3px;
+        color: white;
+        font-family: Mulish-ExtraBold;
+        font-size: 21px;
+        position: relative;
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 16px;
+            width: 30px;
+            background-image: url("./../images/Arrow_white.png");
+            top: 40%;
+            right: 25px;
+        }
+    }
+}
+
+
+.story__btn{
+    &--text{
+        margin-left: 33px;
+    }
+    &--green-bg{
+        width: 302px;
+        height: 60px;
+        background-color: #0aa566;
+        border: none;
+        border-width: 3px;
+        color: white;
+        font-family: Mulish-ExtraBold;
+        font-size: 21px;
+        position: relative;
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 16px;
+            width: 30px;
+            background-image: url("./../images/Arrow_shop-now.png");
+            top: 40%;
+            right: 28px;
+        }
+    }
+}
+

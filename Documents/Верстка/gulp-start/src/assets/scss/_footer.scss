@@ -1,0 +1,128 @@
+.footer__main{
+    height: 372px;
+    background: #f3ab3e;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.footer__logo {
+    margin-top: 135px;
+    /* margin-left: 90px; */
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__list {
+    padding: 0;
+}
+
+.info__list-item {
+    font-size: 18px;
+    color: #6d450c;
+    font-family: "Mulish-Bold";
+    margin-bottom: 15px;
+}
+
+.footer__heading {
+    font-size: 26px;
+    font-family: "Mulish-ExtraBold";
+    color: white;
+    margin-top: 76px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.footer__payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment__box {
+    width: 260px;
+}
+
+.payment__img {
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer__form{
+    width: 495px;
+}
+.contacts__field{
+    background:url(./../images/subscribe_Icon.png) no-repeat;
+    background-position:20px;
+    border-radius: 35px;
+    height: 60px;
+    width: 495px;
+    color:#6d450c;
+    font-family: Mulish-Bold;
+    font-size: 17px;
+    outline: none;
+    padding-left: 65px;
+    background-color: white;
+}
+
+.contacts__btn{
+    border:none;
+    outline:none;
+    background:transparent;
+    color:#6d450c;
+    font-family: Mulish-ExtraBold;
+    font-size: 18px;
+    margin-left: 185px;
+    margin-top: 35px;
+}
+
+.contacts__list{
+    display: flex;
+    width: 115px;
+    justify-content: space-between;
+    position: absolute;
+}
+.contacts__list-item{
+    margin: 0;
+}
+.footer__bottom {
+    height: 61px;
+    background: #6d2b1f;
+    display: flex;
+}
+.bottom__text{
+    margin-top: 25px;
+    position: absolute;
+    left: 50%;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    font-size: 13px;
+    color:#af8a82;
+    /* -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
+}
+.bottom__btn{
+    height: 50px;
+    width: 50px;
+    background:url(./../images/gotop_Icon.png) no-repeat;
+    background-position:center;
+    background-color:#f2662f;
+    border-radius:5px;
+    position: absolute;
+    left:1780px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
