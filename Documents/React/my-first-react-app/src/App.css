@@ -1,3 +1,4 @@
+
 .App{
     background-color: #F2F2F2;
     height: 100vh;
@@ -19,11 +20,25 @@
 
 .main{
     grid-area: c;
-    padding: 32px;
+    padding-left: 32px;
 }
 
 .block-content{
     display: grid;
     grid-template-columns: repeat(3, 336px);
     gap: 32px;
+}
+
+.channelsWrapper{
+    display:flex;
+    align-items: center;
+}
+
+.channels{
+    margin-bottom: 38px;
+}
+
+.newsList{
+    display: flex;
+    flex-direction: row;
 }

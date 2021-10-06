@@ -1,0 +1,30 @@
+.News{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 27px;
+}
+.newsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.newsImg{
+    width: 336px;
+    height: 176px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 16px;
+}
+.newsText{
+    width: 224px;
+}
+
+.newsInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

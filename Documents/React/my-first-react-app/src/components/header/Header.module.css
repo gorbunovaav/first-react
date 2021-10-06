@@ -8,7 +8,6 @@
     align-items: baseline;
 }
 .search{
-    background-color:#F7F7F7;
     margin-left: 28px;
     margin-right: 16px;
     width: 385px;
@@ -19,7 +18,7 @@
     font-size: 14px;
     color: #626264;
     padding-left: 48px;
-    background: url(./../../assets/img/search-pseudo.png) no-repeat center left 16px;
+    background: url(./../../assets/img/search-pseudo.png) no-repeat center left 16px #F7F7F7;
 }
 .menuButton{
     width: 48px;
