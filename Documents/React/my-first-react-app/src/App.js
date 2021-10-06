@@ -7,12 +7,15 @@ import img3 from './assets/img/image3.jpg';
 import img4 from './assets/img/image4.jpg';
 import img5 from './assets/img/image5.jpg';
 import img6 from './assets/img/image6.jpg';
+import Header from './components/header/Header';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="header">Header</header>
+      <header className="header">
+        <Header/>
+      </header>
       <aside className="sidebar">Aside</aside>
       <main className="main">
         <section className="headliners">

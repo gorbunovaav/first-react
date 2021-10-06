@@ -1,0 +1,13 @@
+.menuItem{
+    display: flex;
+    align-items: center;
+    margin-right: 21px;
+}
+.menuImg{
+    margin-right: 12px;
+}
+.text{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
