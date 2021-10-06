@@ -1,0 +1,29 @@
+.App{
+    background-color: #F2F2F2;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 304px 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 
+    "s h"
+    "s c";
+}
+.header{
+    grid-area: h;
+}
+
+.sidebar{
+    grid-area: s;
+    background-color: #F8F8F8;
+}
+
+.main{
+    grid-area: c;
+    padding: 32px;
+}
+
+.block-content{
+    display: grid;
+    grid-template-columns: repeat(3, 336px);
+    gap: 32px;
+}
