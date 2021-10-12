@@ -1,0 +1,33 @@
+.SidebarItem{
+    display: flex;
+    width: 272px;
+    height: 56px;
+    align-items:center;
+    margin-left: 16px;
+    border-radius: 10px;;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.SidebarItem:hover{
+    background: #503E9D;
+    opacity: 30%;
+}
+.SidebarItem:hover span{
+        color: #503E9D;
+    }
+    
+.SidebarItem:hover img{
+        color: #503E9D;
+    }
+
+.SidebarIcon{
+    margin-left: 16px;
+    margin-right: 24px;
+}
+.SidebarText{
+    font-weight: normal;
+    font-size: 16px;
+    color: #878787;
+}

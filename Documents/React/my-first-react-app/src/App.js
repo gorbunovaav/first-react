@@ -20,6 +20,16 @@ import News from './components/news/News';
 import NewsImg1 from './assets/img/news-img1.jpg';
 import NewsImg2 from './assets/img/news-img2.png';
 import NewsImg3 from './assets/img/news-img3.png';
+import SidebarItem from './components/sidebar/sidebarItem/sidebarItem';
+import Logo from './assets/img/Logo.png';
+import SidebarIcon1 from './assets/img/SidebarIcon1.png';
+import SidebarIcon2 from './assets/img/SidebarIcon2.png';
+import SidebarIcon3 from './assets/img/SidebarIcon3.png';
+import SidebarIcon4 from './assets/img/SidebarIcon4.png';
+import SidebarIcon5 from './assets/img/SidebarIcon5.png';
+import SidebarIcon6 from './assets/img/SidebarIcon6.png';
+import SidebarIcon7 from './assets/img/SidebarIcon7.png';
+import AdImg from './assets/img/Ad-img.png';
 
 const chanImg1 = {
   width: '56px',
@@ -64,7 +74,26 @@ function App() {
       <header className="header">
         <Header/>
       </header>
-      <aside className="sidebar">Aside</aside>
+      <aside className="sidebar">
+      <img src={Logo} alt="Logo" className="logo" />
+      <div className="sidebarList">
+        <SidebarItem icon={SidebarIcon1} text="Home"/>
+        <SidebarItem icon={SidebarIcon2} text="Explore"/>
+        <SidebarItem icon={SidebarIcon3} text="Saved"/>
+        <SidebarItem icon={SidebarIcon4} text="Subscriptions"/>
+        <SidebarItem icon={SidebarIcon5} text="Messages"/>
+        <SidebarItem icon={SidebarIcon6} text="Settings"/>
+      </div>
+      <div className="logout">
+        <SidebarItem icon={SidebarIcon7} text="Logout"/>
+      </div>
+      <div className="ad">
+      <img src={AdImg} alt="ad-Img" className="adImg" />
+      <h2 className="adHeader">Subscribe to our new plan <span className="adHeaderRed">$25</span></h2>
+      <span className="adText">It is a limited time offer that will expire soon.</span>
+      <button className="adButton">Subscribe now</button>
+      </div>
+      </aside>
       <main className="main">
         <section className="channels">
         <TitleWrapper title="Explore Channels"/>
@@ -96,6 +125,7 @@ function App() {
         <News newsImg={NewsImg3} text="Pressure builds for Biden to cancel other pipeline..." label="BBC NEWS"/>
         </div>
         </section>
+        
       </main>
 
 

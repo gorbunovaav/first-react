@@ -18,9 +18,40 @@
     background-color: #F8F8F8;
 }
 
+.sidebarList::after{
+    content: "";
+    width: 271px;
+    height: 2px;
+    position: absolute;
+    background-image: url(./assets/img/sidebar-pseudo.png);
+    bottom: 43px;
+    left: 16px;
+    z-index: 2;
+}
+.sidebarList::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url(./assets/img/message-number.png);
+    top: 358px;
+    left: 246px;
+    z-index: 99999999999999;
+}
+.logout::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-image: url(./assets/img/cross-Icon.png);
+    bottom: -20px;
+    left: 243px;
+    z-index: 99999999999999;
+}
 .main{
     grid-area: c;
     padding-left: 32px;
+    background-color: #F2F2F2;
 }
 
 .block-content{
@@ -41,4 +72,70 @@
 .newsList{
     display: flex;
     flex-direction: row;
+}
+
+.logo{
+    margin:33px 0 34px 59px;
+}
+.sidebarList{
+    display: flex;
+    flex-direction: column;
+}
+.logout{
+    margin-top: 130px;
+    margin-bottom: 58px;
+}
+.ad{
+    margin-left: 32px;
+    width: 240px;
+    height: 324px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    z-index: 100000000;
+}
+.ad::before{
+    content: "";
+    width: 272px;
+    height: 472px;
+    position: absolute;
+    background-image: url(./assets/img/Ad-Background.png);
+    top: -51px;
+    right: 1px;
+    z-index: -2;
+}
+.adHeader{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #182135;
+    width: 140px;
+}
+.adText{
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #626264;
+    width: 160px;
+}
+.adButton{
+    width: 176px;
+    height: 48px;
+    background: #503E9D;
+    border-radius: 10px;
+    background-image:url(./assets/img/ad-btnicon.png);
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+    background-position-y: center;
+    color:#F7FAFC;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 17px 0 17px;
+    text-align: left;
+    margin-top: 32px;
 }
